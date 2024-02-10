@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* إعدادات عامة لكافة العناصر في الصفحة */
+
+
+
+section {
+    margin: 100px;
+}
+/* القسم الرئيسي في الصفحة */
+
+
+
+.main{
+    border: 1px solid ;
+    background: linear-gradient(to right, #e95530, #ff00aa);
+    padding: 20px;
+}
+/*  العنصر الرئيسي  */
+
+
+
+.main_header{
+    margin-bottom: 20px;
+    color: #eee;
+}
+/*  header العنوان الرئيسي  */
+
+
+
+.main_sec{
+    display: flex;
+    justify-content: space-between;
+}
+/*  عناصر الفقرات  */
+
+
+
+.main_sec  p{
+    color: #eee;
+    margin: 5px 0px;
+}
+/*  الفقرات داخل العنصر الرئيسي  */
+
+
+
+.title{
+    text-align: center;
+    margin: 30px 0px ;
+}
+/*  عنصر العنوان الرئيسي */
+
+
+
+.content{
+    display: flex;
+    justify-content: space-between; 
+}
+/*  عنصر المحتوى  */
+
+
+
+.card{
+    background-color: #ffffff;
+    width: 75em;
+    box-shadow: 0px 5px 10px rgba(1, 1, 1, 15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+}
+/*   البطاقة الذي يحتوي على معلومات الدفع */
+
+
+
+.info{
+    text-align: center;
+}
+/*   المعلومات داخل البطاقة */
+
+
+
+
+.info h3{
+    color: #3a3939b4;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 10px;
+}
+/*  العنوان الفرعي للمعلومات  */
+
+
+
+.icon{
+    text-align: center;
+}
+/*  عنصر الأيقونة داخل البطاقة */
+
+
+
+
+img{
+    height: 50px;
+}
+/*  الصورة داخل الأيقونة */
+
+
+
+.form_info{
+    display: flex;
+    justify-content: space-between;
+}
+/*  معلومات النموذج  */
+
+
+
+.form_info input{
+    width: 250px;
+    height: 25px;
+    background-color: rgba(70, 67, 64, 0.034);
+    border-radius: 5px;
+}
+/*  حقول إدخال البيانات  */
+
+
+
+.form_info p{
+    text-align: center;
+    color: rgba(70, 67, 64, 0.514);
+    margin-bottom: 10px;
+}
+/*  الفقرات  */
+
+
+
+
+.input2 input{
+    width: 100px;
+}
+/*  حقل إدخال تاريخ انتهاء الصلاحية   */
+
+
+
+
+.input3 input{
+    width: 150px;
+}
+/*  حقل إدخال رمز الأمان   */
+
+
+
+
+.btn  {
+    text-align: center;
+    margin-top: 50px;
+}
+/*   الزر  */
+
+
+
+
+.btn button{
+    border-radius: 50px ;
+    width: 200px;
+    height: 50px;
+    color: #eee;
+    background: linear-gradient(to right, #e95530, #ff00aa);
+}
+/*  زر الشراء  */
+
+
+
+
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+}
+/* الرابط */
